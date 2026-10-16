@@ -1,5 +1,7 @@
 {
 	"provideLibs": [	
+		    "libdummy_binary_libfreetype.a-x86_64-v2.so",
+		    "libdummy_binary_libfreetype.a.so",
 		    "libdummy_ext_freetype-x86_64-v2.so",
 		    "libdummy_ext_freetype.so",
 		    "libdummy_headers_ext_freetype-x86_64-v2.so",
@@ -7,13 +9,11 @@
 		    "libfreetype-x86_64-v2.so",
 		    "libfreetype.so",
 		    "libft2-x86_64-v2.so",
-		    "libft2.so",
-		    "libpng16-x86_64-v2.so",
-		    "libpng16.so"
+		    "libft2.so"
 	],
 	"requireLibs": [	
 		    "libc.so",
-		    "libm.so",
+		    "libpng16.so",
 		    "libz.so"
 	],
 	"visible": true
