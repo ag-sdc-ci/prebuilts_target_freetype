@@ -39,6 +39,7 @@ cc_prebuilt_library_shared {
         "//apex_available:platform",
     ],
     min_sdk_version: "29",
+    sdk_version: "current",
     srcs: ["src/lib/libft2.so"],
 }
 
